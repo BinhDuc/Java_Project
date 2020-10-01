@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+.icon-user:before{content:"\f007"}
+.icon{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-fw{width:1.28571429em;text-align:center}

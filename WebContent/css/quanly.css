@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+
+.counter-value{
+  	color:white;
+  	font-size:25px;  	
+}
+#myInput {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border:none;
+  
+}
+#myInputPH {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border:none;
+  
+}
+#myInputBL {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border:none;
+  
+}
+#myInput2 {
+  width: 100%;
+  padding: 10px;
+  outline: none; 
+  border:none;
+  
+}
+#myInput3 {
+  width: 100%;
+  padding: 10px;
+  outline: none; 
+  border:none;
+  
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  
+  
+}
+.icon {
+  padding: 15px;
+  background: white;
+  color: black;
+  min-width: 50px;
+  text-align: center;
+  
+}
+
+
+.input-container2 {
+  	display: -ms-flexbox; /* IE10 */
+  	display: flex;
+  	width: 100%;
+  	margin-bottom: 15px;
+}
+
+.icon2 {
+  	padding: 15px;
+  	background: #3366FF;
+  	color: black;
+  	min-width: 50px;
+  	text-align: center;
+  	border-radius:15px 0px 0px 15px;
+}
+
+.input-field2 {
+  	width: 100%;
+  	padding: 10px;
+  	outline: none;
+  	border-radius:0px 15px 15px 0px;
+  	border:2px solid #3366FF;
+  	
+}
+
+
+
+/* Set a style for the submit button */
+.bton{
+  	background-color: orange;
+  	color: white;
+  	padding: 9px;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  	border-radius:15px;
+  	box-shadow:0px 0px 5px 5px yellow;
+  	font-size:20px;
+  	
+}
+
+.bton:hover {
+  background-color: white;
+  color:black;
+  border:1px solid orange;
+  box-shadow:none;
+}
+::-webkit-input-placeholder { /* Edge */
+  	color: black;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  	color: black;
+}
+
+::placeholder {
+  	color: black;
+}
+.btn1{	
+	border-radius:5px;
+	
+}
+.tablelink a
+{
+	border: none;
+  	outline: 0;
+  	display: block;
+	text-decoration:none;
+}
+.tablelink a:hover
+{
+	color: black;
+}
+.tablelink a:focus
+{
+	color: black;
+}
+.btedit{
+	width:100%;
+	padding:20px;
+	border-bottom:1px solid #33CCFF ;
+}
+.btedit1{
+	width:100%;
+	padding:20px;
+	
+}
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
